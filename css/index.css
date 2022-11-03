@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Slabo+27px&display=swap');
+
+body{
+    background-image: linear-gradient(to left,white,#396965) ;
+}   
+
+main{
+    width: 350px;
+    height: 500px;
+    border: solid black;
+    border-radius: 20px;
+    background-color: #b8d5db;
+    margin: auto;
+}
+
+#tittle{
+    text-align:center; font-family: 'Montserrat', sans-serif;
+}
+
+#principal{
+    font-family: 'Acme', sans-serif;
+    border: solid black;
+    margin: 10px;
+    background-color: white;
+    text-align: justify;
+}
+
+.areas{
+    font-family: 'Roboto Mono', monospace;  
+    border-radius: 5px;
+    display: inline;
+    border: solid black thin;
+    padding: 10px;
+    margin: 5px;;
+    text-align: center;
+}
+
+.areas:hover{
+    background-color: gray;
+    color: white;
+    text-decoration: overline;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+#links{
+    margin-top: 60px;
+    text-align: center;   
+}
+
+.img-links{
+    height: 25px;
+    width: 25px;
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+        margin: 10px;
+}    

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Slabo+27px&display=swap');
+
+body{
+    background-image: linear-gradient(to left,white,#396965) ;
+}   
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    border: solid black;
+    border-radius: 20px;
+    background-color: #b8d5db;
+    margin: auto;
+}
+
+.sub-tittle{
+    text-align: center; 
+    font-size: 20px;
+}
+
+#tittle{
+    text-align:center; font-family: 'Montserrat', sans-serif;
+}
+
+#principal{
+    font-family: 'Acme', sans-serif;
+    border: solid black;
+    margin: 10px;
+    background-color: white;
+    text-align: justify;  
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#principal::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(230, 225, 225);
+    border-radius: 10px;
+}
+
+#principal::-webkit-scrollbar-thumb{
+    background-color: #6fac9c;
+    border-radius: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.img-links{
+    height: 25px;
+    width: 25px;
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,1);
+}
+
+.form-field{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display:flex;
+    flex-direction: column;
+    color: black;
+}
+    
+.field-label{
+    color: inherit;
+    margin-bottom: 4px;
+    font-size:14px;    
+}
+    
+.field-input{
+    padding: 8px;
+    border-radius: 4px;
+    color: inherit;
+    border: 2px solid;
+    outline: none;
+}
+    
+.botao-wrapper{
+    display: flex;
+}
+    
+.botao{
+    font-family: 'Roboto Mono', monospace;
+    border: solid black thin;
+    background-color:  white;
+    color: black;
+    display: block;
+    flex: 1;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0.5em;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.botao:hover{
+     background-color: gray;
+}
+
+.text{
+    margin: 10px;
+    padding: 10px;
+}
